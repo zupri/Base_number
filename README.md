@@ -15,9 +15,12 @@ from basen import Basen
 
 base16 = Basen(base=16)
 base16.base_n(15).show
+#atau
+print(base16.base_n(15).value)
 ```
 hasil :
 ```
+F
 F
 ```
 
