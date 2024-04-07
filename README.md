@@ -1,4 +1,4 @@
-## Base Number
+# Base Number
 
 Konversi dari berbagai base number ke desimal dan sebaliknya.
 
@@ -9,7 +9,7 @@ Printable characters :
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 
-### Konversi dari desimal ke base-16 (hexadesimal)
+## Konversi dari desimal ke base-16 (hexadesimal)
 ```python
 from basen import Basen
 
@@ -24,7 +24,7 @@ F
 F
 ```
 
-### Konveri dari desimal ke base-40
+## Konveri dari desimal ke base-40
 ```python
 Basen(base=40).base_n(10).show
 ```
@@ -41,7 +41,7 @@ hasil :
 2K
 ```
 
-### Melihat Karakter
+## Melihat Karakter
 ```python
 from basen import Basen
 
@@ -53,7 +53,7 @@ hasil :
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 ```
 
-### Mengganti Karakter biner 0 dan 1 menjadi karakter A dan B
+## Mengganti Karakter biner 0 dan 1 menjadi karakter A dan B
 ```python
 from basen import Basen
 
@@ -69,3 +69,9 @@ BABA
 ```
 
 Secara default maksimal karakter adalah 94 di ambil dari Printable karakter ASCII.
+
+# Base 58 Bitcoin
+```c
+static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+```
+https://github.com/bitcoin/bitcoin/blob/master/src/base58.cpp
