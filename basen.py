@@ -4,6 +4,9 @@ Chracter for Seven Segment :
 
 ASCII Printable characters :
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+
+BASE58 :
+"123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
 '''
 
 class Basen:
